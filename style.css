@@ -1,61 +1,16 @@
-body {
-    background: linear-gradient(#ff4747 0%, #47fff9 100%);
-    border: dotted;
-    border-bottom-color: aliceblue;
-    border-right-color: aqua;
-    border-left-color: aqua;
-    border-top-color: aliceblue;
+nav{
+    position: sticky;
+    top:0 px;
+    z-index:99999;
+}
+body{
     text-align: center;
-    font-family: 'Pirata One', cursive;
-    font-size: 30px;
 }
-
-h1 {
-    font-weight: 200;
-    text-shadow: 2px 2px #fcff47;
+.img-responsive {
+    width: 20%;
+    height: 20%;
 }
-
-h2 {
-    color: purple;
-    text-shadow: 2px 2px #ff47f3;
+.img {
+    width:50%;
+    height:25%;
 }
-
-.menu {
-    list-style: none;
-    list-style: none;
-    font-family: monospace;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    margin-top: 0px;
-    cursor: pointer;
-    z-index: 10;
-    padding: 0px;
-}
-
-.list {
-    display: inline;
-    padding-left: 35px;
-    padding-right: 25px;
-    font-family: 'Lobster', cursive;
-}
-
-.list:hover {
-    background-color: darkgreen;
-    font-size: 20px;
-    text-decoration: underline;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-.cats{
-  height: 300px;
-}
-#Romuald Racioppo{
-width: 200px;
-    height: 200px;
-    border-style: dotted;
-    border-color:gold;
-} 
-
