@@ -7,18 +7,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <center>
-        <ul class="menu">
-            <li class="list"><a href="#my_favourite_character">My favourite character</a></li>
-            <li class="list"><a href="#about">About</a></li>
-            <li class="list"><a href="#my_work">My work</a></li>
-            <li class="list"><a href="#contact">Contact</a></li>
-            <li class="list"><a href="#my_hobby">My hobby</a></li>
-            <li class="list"><a href="#my_inspiration">My inspiration</a></li>
-        </ul>
+        <nav class="navbar-inverse" style="position: sticky; top:0; z-index: 99999">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="names" class="navbar-brand" href="#">Aarav Kulkarni</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#my_favourite_character">My Favourite Character</a></li>
+                    <li>
+                        <a href="#about">About</a></li>
+                    <li><a href="#my_work">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#my_hobby">My Hobby</a></li>
+                    <li><a href="#my_inspiration">My Inspiration</a></li>
+                </ul>
+            </div>
+
+        </nav>
     </center>
 
     <section id="my_favourite_character">
@@ -60,18 +85,36 @@
     <section id="my_hobby">
         <h1>My hobby</h1>
         <p>My favourite hobby is to play Badminton, a sport which I like the most.</p>
-        
+
         <iframe width="1280" height="720" src="https://www.youtube.com/embed/ej46uuhSN4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
+
         <h4>This is a match in 2010 from Lindan and Lee Chong Wei.</h4>
     </section>
     <section id="my_inspiration">
         <h1>My inspiration</h1>
-        <img id="Romuald Racioppo" src="Romuald%20Racioppo.jpg">
         <h3>This is an image of the creator of the cartoon.</h3>
         <h2>Romuald Racioppo</h2>
+        <img id="Romuald Racioppo" src="Romuald%20Racioppo.jpg">
+        <h5>hi</h5>
+        <h5>I am Romuald Racioppo. I am the French author and creator of Les Pyjamasques picture book series.</h5>
     </section>
-    <h10>hi</h10>
+    <hr>
+    <br><br>
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <h3 class="text-capitalize">this is the location of my school.</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.37983941615!2d77.55828251464416!3d12.883279790913901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ffda3d463a9%3A0x2e8862295ee3b6a4!2sSri%20Kumaran%20Children&#39;s%20Academy!5e0!3m2!1sen!2sin!4v1620795704942!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br><br>
+        <img src="aarav.gif" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4 ">
+        <h3>Aarav .Kulkarni</h3>
+        <div class="aboutme_1">
+
+            <a href="mailto:my@gmail.com?Subject=Hi">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;jgk.aarav2010@gmail.com</h5>
+            </a>
+        </div>
+
+    </div>
 </body>
 
 </html>
