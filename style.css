@@ -1,61 +1,46 @@
 body {
-    background: linear-gradient(#ff4747 0%, #47fff9 100%);
-    border: dotted;
-    border-bottom-color: aliceblue;
-    border-right-color: aqua;
-    border-left-color: aqua;
-    border-top-color: aliceblue;
     text-align: center;
-    font-family: 'Pirata One', cursive;
-    font-size: 30px;
+    font-family: 'Hanalei Fill', cursive;
+    color: greenyellow;
+    font-size: 50px;
 }
 
-h1 {
-    font-weight: 200;
-    text-shadow: 2px 2px #fcff47;
+#apps {
+    background-color: azure;
 }
 
-h2 {
-    color: purple;
-    text-shadow: 2px 2px #ff47f3;
+#games {
+    background-color: blanchedalmond;
 }
 
-.menu {
-    list-style: none;
-    list-style: none;
-    font-family: monospace;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    margin-top: 0px;
-    cursor: pointer;
-    z-index: 10;
-    padding: 0px;
+#chatbot {
+    background-color: crimson;
 }
 
-.list {
-    display: inline;
-    padding-left: 35px;
-    padding-right: 25px;
-    font-family: 'Lobster', cursive;
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
 }
 
-.list:hover {
-    background-color: darkgreen;
+img {
+    transition: transform 0.2s
+}
+
+img:hover {
+    transform: scale(0.9)
+}
+#my_carousel {
+    background-color: cornflowerblue;
+}
+#my_carousel img {
+    height: 300px;
+    margin-top: 30px;
+}
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15ppx;
+    color: darkmagenta;
     font-size: 20px;
-    text-decoration: underline;
 }
-
-html {
-    scroll-behavior: smooth;
-}
-.cats{
-  height: 300px;
-}
-#Romuald Racioppo{
-width: 200px;
-    height: 200px;
-    border-style: dotted;
-    border-color:gold;
-} 
-
